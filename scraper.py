@@ -9,6 +9,8 @@ urltoscrape = "http://www.amazon.co.uk"
 print urltoscrape
 myage = 29
 print myage
+urltoscrape = urltoscrape+"p1"
+print urltoscrape
 
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
