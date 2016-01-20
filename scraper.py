@@ -8,9 +8,12 @@ print 'Hello'
 urltoscrape = "http://www.amazon.co.uk/"
 print urltoscrape
 myage = 29
-print myage
-urltoscrape = urltoscrape+"p1"
+listylist = ["p1","p2","p3"]
 print urltoscrape
+for blah in listylist:
+print blah
+fullurl = urltoscrape+blah
+print fullurl
 
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
