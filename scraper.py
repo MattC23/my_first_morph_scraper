@@ -5,7 +5,7 @@
 # import lxml.html
 
 print 'Hello'
-urltoscrape = "http://www.amazon.co.uk"
+urltoscrape = "http://www.amazon.co.uk/"
 print urltoscrape
 myage = 29
 print myage
