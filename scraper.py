@@ -5,14 +5,14 @@
 # import lxml.html
 
 urltoscrape = "http://www.amazon.co.uk/"
-print "URL:" urltoscrape
+print "URL:", urltoscrape
 myage = 29
-print "My age": myage
-mylist = ["p1","p2","p3"]
-print mylist
+print "My age:", myage
+pagelist = ["p1","p2","p3"]
+print "List of pages:", pagelist
 listlength = len(mylist)
-print "Number of list items: " listlength
-print "First list item: " mylist[0]
+print "Number of list items: ", listlength
+print "First list item: ", mylist[0]
 
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
